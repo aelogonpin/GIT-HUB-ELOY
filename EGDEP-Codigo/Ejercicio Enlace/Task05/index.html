@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <table rules="groups" style="border: 2px solid;color: green;border-collapse: collapse; margin-top:  100px;">
+        <caption>Horario de la clase</caption>
+        <thead>
+            <tr style="border: 2px dotted;color: black;">
+                <th style="padding: 10px;">
+                    <span >Lunes</span>
+                </th>
+                <th>
+                    <span>Martes</span>
+                </th>
+                <th>
+                    <span>Miercoles</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" style="text-align: center;"> <!-- TambiÃ©n esta el rowspan="" -->
+                    <span>1 - 2</span>
+                </td>
+                
+                <td >
+                    <span>3</span>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <span>5</span>
+                </td>
+                <td>
+                    <span></span>
+                </td>
+
+                <td> <table>
+                    <span>6</span>
+                </table>
+                </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <span>7</span>
+                </td>
+                <td>
+                    <span>8</span>
+                </td>
+                <td>
+                    <span>9</span>
+                </td>
+            </tr>
+            
+        </tfoot>
+    </table>
+</body>
+
+</html>
