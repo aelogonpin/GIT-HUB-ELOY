@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La descripcion de la web tenga un tamaño apropiado">
+    <meta name="keboards" content="Actividad, Formulario, Meta">
+    <meta name="language" content="ES">
+    <meta name="copyright" content="Eloy González De Eiris Pineda">
+    <title>Actividad Meta and form</title>
+</head>
+<body>
+    
+</form>
+<table>
+        <tr>
+        <td>Name</td>
+        <td>
+            
+            <input type="text" name="nombre" placeholder="Introduce you Name" required>
+        </td>
+        </tr>
+
+
+    
+        <tr>
+            <td>Surname</td>
+            <td>
+                
+                <input type="text" name="apellido" placeholder="Introduzca sus apellido" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td> Age</td>
+            <td>
+                
+                <input type="text" name="Edad" placeholder="Introduce your age">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>Address</td>
+            <td>
+                
+                <input type="text" name="dirección" placeholder="Introduce your Address" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Provincies</td>
+            <td>
+                
+                <select name="provincias">
+                    <option value="Tomares">Tomares</option>
+
+                    <optgroup label="Zona centro"> Zona centro
+                        <option value="Castilleja de la Cuesta">Castilleja de la Cuesta</option>
+                        <option value="Nueva Sevilla">Nueva Sevilla</option>
+                    
+                    </optgroup>
+                    <option value="Coria del rio">Coria del rio</option>
+                    <option value="Gelves">Gelves</option>
+                    <option value="Bormujos">Bormujos</option>
+                    <option value="Camas">Camas </option>
+                </select>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td> Url</td>
+            <td>
+                <select name="phone" id="phone">
+                    <option value="977">+977</option>
+                    <option value="+34">+34</option>
+                    <option value="677">+677</option>
+                    <option value="345">+345</option>
+                </select>
+
+                <input type="tel" name="Edad" placeholder="Este nose" required>
+            </td>
+        </tr>
+        
+        
+
+        <tr>
+            
+            <td><label for="">Are you worked anytime </label></td>
+            <td>
+                
+                <input type="radio" name="Si" value="Si"> si
+                <input type="radio" name="no" value="no" checked> no
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td> <label for="fechas">Last day worked</label></td>
+            <td>
+                
+                <input type="date" name="fecha1" placeholder="Seleccione una fecha" id="fecha1">
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td>Social Networks</td>
+            <td>
+                
+                <input type="checkbox" name="caja" placeholder="Este nose" id="" maxlength="20" value="NS">Facebook
+                <input type="checkbox" name="caja" placeholder="Este nose" id="" maxlength="20" value="NS">Twitter
+                <input type="checkbox" name="caja" placeholder="Este nose" id="" maxlength="20" value="NS">Instagram
+                <input type="checkbox" name="caja" placeholder="Este nose" id="" maxlength="20" value="NS">Linkedin
+            </td>
+        </tr>
+
+
+
+        <tr> 
+            <td><label for="description">Own description</label>
+                <td> <textarea name="Descriptión" rows="5" cols="20">  </textarea>
+        </td>
+        </tr>
+
+
+        <tr>
+            <td> Email</td>
+            <td>
+                
+                <input type="email" name="email" placeholder="Write here your email" required
+            >
+            </td>
+        </tr>
+
+
+        <tr>
+            
+            <td><input type="submit" value="Enviar"></td>
+            <td><button onClick="alert('¡Hola, espero que te haya gustado mi formulario saludos =)!')">Pruebame</button></td>
+        </tr>
+
+
+</body>
+</html>

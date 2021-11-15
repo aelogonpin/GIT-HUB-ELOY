@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+<script>
+function pasarAMayus(campo) {
+        campo.value= campo.value.toUpperCase();
+
+function Ponerenrojo(campo) 
+        campo.style= "border 2px solid red"();
+}
+</script>
+</head>
+<body>
+    <div style="width: 600px; margin: 0 auto;">
+    <!-- <h2>Formulario</h2>
+    <form action="registro.php" method="get">
+        <input type="text" name="holaquease"> -->
+
+
+    </form>
+    <table>
+        <tr>
+            <td>Apellidos</td>
+            <td>
+                
+                <input type="text" name="apellido" placeholder="Pon los datos que quieras" pattern="[A-Z]{10}[0-9]{2}" required>
+            </td>
+        </tr>
+
+        <tr> 
+            <td><label for="description">descripcioón</label>
+                <td> <textarea name="Descriptión" rows="5" cols="20">algo </textarea>
+        </td>
+        </tr>
+        
+        <tr>
+            <td> <label for="fechas">fechas</label></td>
+            <td>
+                
+                <input type="date" name="fecha1" placeholder="shupame la pinga" id="fecha1">
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label for="fechas">fechas</label></td>
+            <td>
+                <input type="datetime" name="diablo" placeholder="dios">
+            </td>
+        </tr>
+        <tr>
+            <td> <label for="fechas">fechas</label></td>
+            <td>
+                <input type="datetime-local" name="diablo" placeholder="dios">
+            </td>
+        </tr>
+        <tr>
+            <td> <label for="fechas">fechas</label></td>
+            <td>
+                <input type="time" name="diablo" placeholder="dios">
+            </td>
+        </tr>
+        <tr>
+            <td> <label for="fechas">fechas</label></td>
+            <td>
+                <input type="month" name="diablo" placeholder="dios">
+            </td>
+        </tr>
+
+        <tr>
+            <td> Edad</td>
+            <td>
+                
+                <input type="text" name="Edad" placeholder="Este nose" readonly
+            >
+            </td>
+        </tr>
+        <tr>
+            <td> alcohol</td>
+            <td>
+                
+                <input type="number" name="Edad" placeholder="Este nose" max="20" min="-10" step="5"
+            >
+            </td>
+        </tr>
+
+        <tr>
+            <td> <label for="password"></label> barcelona</td>
+            <td>
+                
+                <input type="password" name="Edad" placeholder="Este nose"
+            >
+            </td>
+        </tr>
+
+
+
+
+        <tr>
+            <td> email</td>
+            <td>
+                
+                <input type="email" name="Edad" placeholder="Este nose" required
+            >
+            </td>
+        </tr>
+        <tr>
+            <td> url</td>
+            <td>
+                
+                <input type="url" name="Edad" placeholder="Este nose" required
+            >
+            </td>
+        </tr>
+
+        <tr>
+            <td> url</td>
+            <td>
+                
+                <input type="tel" name="Edad" placeholder="Este nose" required
+            >
+            </td>
+        </tr>
+
+
+
+
+
+        <tr>
+            <td>betis</td>
+            <td>
+                
+                <input type="text" name="betis" placeholder="Este nose" onkeyup="pasarAMayus(this)" onkeyup="Ponerenrojo(this)"<>
+            
+            </td>
+        </tr>
+
+        <tr>
+            <td>fichero</td>
+            <td>
+                
+                <input type="file" name="fichero" id="fichero" placeholder="Este nose" onkeyup="pasarAMayus(this)" onkeyup="Ponerenrojo(this)"<>
+            
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <td>Sevilla</td>
+            <td>
+                
+                <input type="text" name="Sevilla" placeholder="Este nose" maxlength="20">
+            </td>
+        </tr>
+
+        <tr>
+            <td>provincias</td>
+            <td>
+                
+                <select name="provincias">
+                    <option value="gomkfdg">hhhghhg</option>
+
+                    <optgroup label="Zona centro"> Zona centro
+                        <option value="gomkfdg">hhhghhg</option>
+                        <option value="gomkfdg">hhhghhg</option>
+                    
+                    </optgroup>
+                    <option value="gfdgdgd">hgfhfhgf</option>
+                    <option value="gdgdgdgdg">hfghgfhf</option>
+                    <option value="gfdgdfgdg">hgfhf</option>
+                    <option value="gfdgdgdgd">hghfh</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            
+            <td><label for=""></label></td>
+            <td>
+                
+                <input type="text" name="apellido" placeholder="Este nose" id="apellidos" readonly
+            >
+            </td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="Limpiar"></td>
+            <td><input type="submit" value="enviar"></td>
+            <td><input type="button" value="ocultar" oneclick="document.getElementById('apellidos').style='display: none'"></td>
+        </tr>
+
+
+
+        <tr>
+            
+            <td><label for="">Gender</label></td>
+            <td>
+                
+                <input type="radio" name="Si" value="SI"> si
+                <input type="radio" name="no" value="no" checked> no
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>Sevilla</td>
+            <td>
+                
+                <input type="checkbox" name="caja" placeholder="Este nose" id="" maxlength="20" value="NS">lopera
+                <input type="checkbox" name="caja" placeholder="Este nose" id="" maxlength="20" value="NS">suajili
+                <input type="checkbox" name="caja" placeholder="Este nose" id="" maxlength="20" value="NS">hierva
+            </td>
+        </tr>
+    </table>
+    
+    </div>
+</body>
+</html>
