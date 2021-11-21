@@ -1,0 +1,106 @@
+
+
+
+
+
+h1 {
+    font: bold 3
+    36px verdana, sans-serif;
+    position: relative;left: 70px;
+    color: crimson; 
+
+}
+
+h2 {
+    font: bold 12px verdana, sans-serif;
+    position: relative;left: 70px; 
+    color: green;
+}
+
+
+header, section, footer, aside, article {
+    display:block;
+}
+
+body {
+    text-align: left;
+}
+
+#container {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+ }
+
+
+ #head {
+     background-color: lightgreen;
+     border: 3px solid darkgreen;
+     padding: 30px;
+ }
+
+
+ #navbar {
+     background-color: coral;
+     padding: 5px 15px;
+ }
+
+ #nabvar li {
+     display: inline-block;
+     list-style: none;
+     padding: 5px;
+ }
+
+ #main{
+     float: left;
+     width: 560px;
+     margin: 0px;
+ }
+
+
+ #column {
+     float: left;
+     width: 260px;
+     height: 620px;
+     margin: 0px 50px;
+     padding: 20px;
+     background-color: lightgrey;
+ }
+
+
+ #foot {
+     clear: both;
+     text-align: center;
+     border-top: 2px solid steelblue;
+ }
+
+ article {
+     background-color: lightsalmon;
+     border:solid 0.5px brown;
+     padding: 140px;
+ }
+
+ article footer {
+     text-align: center;
+     font-size: small;
+ }
+
+
+ nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:6px 6px;
+    background-color:lightskyblue;
+    border:1px solid grey;
+    text-align:center;
+    color:black;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
