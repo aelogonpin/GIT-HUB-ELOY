@@ -1,0 +1,16 @@
+.borde{
+    border: solid 1px black;
+    width: 400px;
+    height: 690px;
+}
+
+#zorro{
+    height: 200px;
+    width: 370px;
+    position: relative; left: 3 px;
+}
+
+#tabla{
+    background: gray;
+    overflow: scroll;
+}

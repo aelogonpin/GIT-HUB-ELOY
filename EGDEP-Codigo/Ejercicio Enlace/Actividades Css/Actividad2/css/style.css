@@ -1,0 +1,49 @@
+h1,h2,em,li,p,table,form,a{
+    position: relative;left: 9px;
+}
+
+
+
+#borde {
+    border: solid 1px black; 
+    width: 600px;
+    height: 891px;
+    position: relative;left: 20px;
+}
+#abajo{
+    position: relative;top: 10px;left: 10px;
+}
+
+h1, h2 {
+    color: green;
+}
+
+.amarillo{
+    color: yellow;
+    font-weight: bold;
+}
+.amarillo2{
+    color: yellow;
+}
+.a {
+    list-style-type: circle;color:red
+}
+
+.azul{
+    color: blue;
+}
+
+.morado{
+    color: purple;
+}
+
+label {
+    color: darkred;
+}
+#legend {
+    color: darkred;
+}
+
+.twitter:link {
+color: lightblue;
+}

@@ -1,0 +1,21 @@
+div a {
+    color: crimson;
+
+}
+
+p#clavo {
+    color:rgb(56, 147, 181);
+}
+
+.pepe {
+    color: blue;
+}
+
+.especial {
+    color: yellow;
+    background: black;
+}
+
+.negro {
+    font-weight: bold;
+}
