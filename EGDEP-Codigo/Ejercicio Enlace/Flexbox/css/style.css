@@ -1,0 +1,44 @@
+.contenedor {
+display: flex;
+/* flex-direction:column;*/
+/* flex-wrap: wrap; */
+/* flex-flow: row-reverse wrap-reverse; */
+flex-direction: row;
+flex-wrap: wrap;
+
+
+/* EStos son ubicados con centro */
+/* justify-content: center; */
+/* justify-content: space-around; */
+
+
+
+/* height: 240px;
+border: 1px solid black;
+flex-flow: row wrap;
+justify-content: center;
+/* align-items: center; */
+/* align-content: space-around; */
+} 
+
+/* .elemento{
+width: 25%;
+background: linear-gradient(to right, blue, gray );
+border: 1px solid black;
+ height: 40px; 
+color: white;
+} */
+
+.elemento {
+    width: 20%;
+    background: linear-gradient(to right, blue, gray);
+    border: solid 1px black;
+    height: 40px;
+    color: white;
+    flex: 1 1 0;
+
+}
+
+.elemento:nth-child(4){
+    flex-grow: 3;
+}

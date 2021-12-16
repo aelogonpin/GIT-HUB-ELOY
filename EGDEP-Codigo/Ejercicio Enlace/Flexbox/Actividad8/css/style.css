@@ -1,0 +1,22 @@
+
+.clavo{
+    background: black;
+    width: 900px;
+    height: 200px;
+}
+.blanco{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;top: 50px ;
+    background: black;
+}
+.box {
+    background: gray;
+  }
+  .parte{
+      width: 900px;
+  }
+  .push {
+    margin-left: auto;
+}
