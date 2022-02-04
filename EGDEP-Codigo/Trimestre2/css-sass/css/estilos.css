@@ -1,0 +1,103 @@
+body {
+  background-color: #C0C0C0;
+  color: #51527F;
+  font-family: "Roboto", sans-serif;
+}
+
+.clase-1 {
+  color: #555555;
+}
+
+.clase-2 {
+  color: #aaaaaa;
+}
+
+.clase-3 {
+  color: white;
+}
+
+.info {
+  display: inline-block;
+}
+
+.col-4 {
+  width: 80px;
+  left: 240px;
+}
+
+.col-3 {
+  width: 80px;
+  left: 160px;
+}
+
+.col-2 {
+  width: 80px;
+  left: 80px;
+}
+
+.col-1 {
+  width: 80px;
+  left: 0px;
+}
+
+.social-links .icon-facebook {
+  background-image: url("images/facebook.png");
+}
+
+.social-links .icon-twitter {
+  background-image: url("images/twitter.png");
+}
+
+.social-links .icon-linkedin {
+  background-image: url("images/linkedin.png");
+}
+
+.social-links .icon-reddit {
+  background-image: url("images/reddit.png");
+}
+
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: #C0C0C0;
+}
+
+.rectangulo {
+  width: 100px;
+  height: 80px;
+}
+
+.cubo {
+  width: 50px;
+  height: 40px;
+}
+
+.micapa {
+  width: 31.25%;
+}
+
+.display {
+  width: 5em;
+  height: 5em;
+  border: 5px solid #51527F;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 2em;
+}
+
+li {
+  background-color: blue;
+}
+
+li:hover {
+  background-color: red;
+}
+
+li a {
+  color: white;
+}

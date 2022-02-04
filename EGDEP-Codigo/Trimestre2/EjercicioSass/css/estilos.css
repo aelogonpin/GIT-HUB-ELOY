@@ -1,0 +1,30 @@
+/* line 9, ../../../Repositorios/GIT-HUB-ELOY/EGDEP-Codigo/Trimestre2/EjercicioSass/sass/estilos.scss */
+body {
+  background-color: gray;
+  color: #51527F;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 15, ../../../Repositorios/GIT-HUB-ELOY/EGDEP-Codigo/Trimestre2/EjercicioSass/sass/estilos.scss */
+h1 {
+  margin-left: 0.5em;
+  color: red;
+  font-size: 70px;
+}
+
+/* line 21, ../../../Repositorios/GIT-HUB-ELOY/EGDEP-Codigo/Trimestre2/EjercicioSass/sass/estilos.scss */
+li {
+  display: inline;
+  padding-right: 0.6em;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+/* line 29, ../../../Repositorios/GIT-HUB-ELOY/EGDEP-Codigo/Trimestre2/EjercicioSass/sass/estilos.scss */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
