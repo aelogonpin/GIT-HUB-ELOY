@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../sass/estilos.scss"
+	],
+	"sourcesContent": [
+		"$primary-color: gray;\n$body-font: 'Roboto', sans-serif;\n$primary-word: red;\n$secondary-word: black;\n$tercera-palabra: white;\n\n\n\nbody {\n    background-color: $primary-color;\n    color: #51527F;\n    font-family: $body-font;\n}\n\nh1 {\n  margin-left: 0.5em;\n    color: $primary-word;\n    font-size: 70px;\n}\n\n li {\n    display: inline;\n    padding-right: 0.6em;\n    color: $tercera-palabra ;\n      text-decoration: none;\n      font-size: 40px;\n  }\n\n  a {\n    color: $secondary-word ;\n    text-decoration: none;\n  }"
+	],
+	"names": [],
+	"mappings": ";AAQA,AAAA,IAAI,CAAC;EACD,gBAAgB,EATJ,IAAI;EAUhB,KAAK,EAAE,OAAO;EACd,WAAW,EAVH,QAAQ,EAAE,UAAU;CAW/B;;;AAED,AAAA,EAAE,CAAC;EACD,WAAW,EAAE,KAAK;EAChB,KAAK,EAdM,GAAG;EAed,SAAS,EAAE,IAAI;CAClB;;;AAEA,AAAA,EAAE,CAAC;EACA,OAAO,EAAE,MAAM;EACf,aAAa,EAAE,KAAK;EACpB,KAAK,EAnBS,KAAK;EAoBjB,eAAe,EAAE,IAAI;EACrB,SAAS,EAAE,IAAI;CAClB;;;AAED,AAAA,CAAC,CAAC;EACA,KAAK,EA1BQ,KAAK;EA2BlB,eAAe,EAAE,IAAI;CACtB"
+}

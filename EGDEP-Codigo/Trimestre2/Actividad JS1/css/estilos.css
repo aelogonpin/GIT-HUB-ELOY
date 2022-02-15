@@ -1,0 +1,28 @@
+.mio {
+    background-color: green;
+}  
+.suyo {
+    background-color: fuchsia;
+}
+.aquel {
+    background-color: black;
+ }
+
+
+ .success {
+     border: 1px rgb(1, 141, 1);
+     background-color: greenyellow;
+     color: rgb(2, 49, 2);
+ }
+ 
+ .error {
+    border: 1px hsl(0, 99%, 30%);
+    background-color: rgb(250, 6, 6);
+    color: rgb(75, 1, 1);
+ }
+
+ .warning {
+    border: 1px rgb(153, 153, 2);
+    background-color:yellow;
+    color: rgb(56, 56, 1);
+ }

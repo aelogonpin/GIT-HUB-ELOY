@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActividadJS2</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script type="text/javascript" src="js/funciones.js"></script>
+</head>
+<body>
+    <br>
+    <div style="width: 50%; float: left;">
+    <span id="texto">
+        <h1>Formulario</h1>
+        <form action="funciones.php" method="get" name="formu" onsubmit="return validarformulario()">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" autofocus onblur="validar(this)">
+            <br>
+            <br>
+
+            <span id="spnombre" style="color: red;"></span>
+            <br>
+            <br>
+
+            <label for="postal">Cod. Postal</label>
+            <input type="number" name="postal" id="postal" size="5">
+            <br>
+            <br>
+
+            <label for="edad">edad</label>
+            <input type="range" name="edad" id="edad" min="1" max="100" onchange="mostrarEdad(this)">
+            <span id="spedad"></span>
+            <br>
+            <br>
+
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" name="telefono" id="telefono">
+            <br>
+            <br>
+
+            
+    <input type="submit" value="Enviar">
+
+        </form>
+    </span>
+    </div>
+
+
+
+
+
+    <div id="capaerrores" style="width: 50%; float: left;color: red;visibility: hidden;">
+        <h3>Errores</h3>
+        <span id="sperrores"></span>
+    </div>
+</body>
+</html>
