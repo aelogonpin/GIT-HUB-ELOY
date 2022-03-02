@@ -1,0 +1,20 @@
+.azul {
+background-color: grey;
+width: 1800px;
+height:250px;
+}
+.parte2 { 
+    margin: left;
+padding-left: 20px;
+color: white; }
+
+#bloque1 { 
+    height: 300;
+width: 400px;
+float: left; }
+
+#bloque2 { 
+height: 300;
+width: 400px;
+ }
+

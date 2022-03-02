@@ -1,0 +1,38 @@
+h2, span{
+    font-style:italic ;
+}
+
+
+#datos{
+    background-color: grey ;
+    color: black;
+}
+
+span span{
+    color: black ;
+}
+span span.encima:hover {
+    background-color: yellow;
+    }
+
+span span ::first-letter{
+        font-size: 2rem;
+      }
+
+
+
+a[href$=".com"] {
+color: blue;
+}
+
+
+
+    a[href$=".es"] {
+
+        color: red;
+    }
+    
+    
+    body:first-child {
+        color: gray ;
+      }
