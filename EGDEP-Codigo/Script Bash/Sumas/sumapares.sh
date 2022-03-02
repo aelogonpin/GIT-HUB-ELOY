@@ -1,6 +1,7 @@
 #/bin/bash 
 #Suma de pares e impares y su total en cada caso
 let sumaimpares=0
+let sumapares=0
 for i in {1..2000}
 do
 let resto=$i%2
