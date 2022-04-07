@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#aplicaBorde").click(function () {
+            $("#tabla").css("border" , "solid" );
+
+            });
+            $("#sacarBorde").click(function () {
+            var estilo = $("#tabla").attr("style");
+            $("#resultado").text(estilo);
+            });
+            $("#quitarBorde").click(function () {
+            $("#tabla").css("border" , "none" );
+            });
+        
+
+
+
+    });
+
+    </script>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div>
+    <table id="tabla">
+        <tr><td>Hola</td></tr>
+    
+        
+    </table>
+    <input type="button" value="borde" id="aplicaBorde">
+    <input type="button" value="Sacar borde" id="sacarBorde">
+    <input type="button" value="Quitar borde" id="quitarBorde">
+    </div>
+
+    <div>
+        <span id="resultado"></span>
+    </div>
+
+
+</body>
+</html>
+

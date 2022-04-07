@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#prueba").click(function (){
+             $(this).addClass("h1");
+            });
+            $("#prueba2").click(function (){
+             $(this).addClass("h2");
+            });
+
+            $("#ocultar").click(function (){
+             $("#lista1 li").hide();
+            });
+
+
+    });
+
+    </script>
+    <style>
+        .h1{
+            background-color: red;
+            border: 1px solid black;
+            color: yellow; 
+        }
+
+        .h2{
+            background-color: green;
+            border: 1px solid black;
+            color: yellow; 
+        }
+
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="prueba">Hola que pasa</h1>
+    <br>
+    <h1 id="prueba2">Soy Eloy</h1>
+
+
+    <br>
+    <input type="button" value="Ocultar" id="ocultar">
+
+<ul id="lista1">
+    <li>Hola1</li>
+
+    <li>Hola1</li>
+
+    <li>Hola1</li>
+</ul>
+
+<ul id="lista2">
+    <li>Hola</li>
+
+    <li>Hola</li>
+
+    <li>Hola</li>
+</ul>
+
+</body>
+</html>
