@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#botoncito").click(function(){  
+   $.each($("p"),function(){  
+    if((this.textContent.length)<100){  
+     $(this).addClass("amarillo");  
+    };  
+   });  
+
+   $("#adiosbotoncito").click(function(){  
+   $.each($("p"),function(){  
+    if((this.textContent.length)<100){  
+     $(this).removeClass("amarillo");  
+    };  
+        });  
+            }); 
+                });       
+});
+    </script>
+    <style>
+        .amarillo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Este tiene mas de 100 palabras con lo que no se pone amarillo:</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, esse modi rerum veniam similique, eveniet reprehenderit odit autem a id ratione exercitationem aliquid repellat nostrum vitae natus doloremque itaque ut.</p>
+    </div>
+<br>
+    <div>
+        <h3>Este tiene menos de 100 palabras con lo que se tiene que poner amarillo:</h3>
+        <p>Hola que pasa soy eloy y creo que voy a aporbar este examen resemos al señor todo poderoso.</p>
+        <br><br>
+
+        <h3>Dejo otro de muestra:</h3>
+        <p>jdfnsdkfsnjkfsnkjfndkjfdbkjflshfjkfjkslfbskjfbsdahkfbe.</p>
+    </div>
+    
+    <div>
+        <input type="button" id="botoncito" value="Activamos los chetos">
+        <input type="button" id="adiosbotoncito" value="Desactivamos los chetos">
+    </div>
+</body>
+</html>
