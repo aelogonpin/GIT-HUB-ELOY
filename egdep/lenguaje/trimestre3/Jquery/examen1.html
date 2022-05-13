@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1 Examen</title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+
+        //$(document).ready(function () sirve para poder iniciar el comando cuando este ya se abra
+        $(document).ready(function () {
+            $("#1").hover(function (){
+                $("#1").addClass("color");
+            });
+            $("#1").mouseout(function (){
+                $("#1").removeClass("color");
+            });
+
+
+
+
+
+            $("#2").hover(function (){
+                $("#2").addClass("color");
+            });
+            $("#2").mouseout(function (){
+                $("#2").removeClass("color");
+            });
+
+
+
+
+
+            $("#3").hover(function (){
+                $("#3").addClass("color");
+            });
+            $("#3").mouseout(function (){
+                $("#3").removeClass("color");
+            });
+
+
+
+    });
+
+
+
+</script>
+<style>
+    .color{
+        background-color: blue;
+        color: black;
+        font-size: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <div>
+        <a href="#apruebame" id="1">Enlace 1</a> <br><br>
+        <a href="#porfavor" id="2">Enlace2</a> <br><br>
+        <a href="#profe" id="3">Enlace3</a> <br><br>
+    </div>
+</body>
+</html>

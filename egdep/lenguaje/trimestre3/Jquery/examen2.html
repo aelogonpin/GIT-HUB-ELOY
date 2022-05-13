@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Parte2 JQuery</title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".fondocolor td").mousedown(function () {
+    $(this).addClass("colora");
+  });
+
+  $(".fondocolor td").mouseup(function () {
+    $(this).removeClass("colora");
+  });
+    });
+    </script>
+    <style>
+ .colora{
+            color: orange;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+  <h1>Hola que pasa te dejo las 2 columnas abajo adios =)</h1>
+    <div>
+        <table class="fondocolor">
+            <tr>
+              <td style="border: 1px solid orange; border-collapse: collapse"><p>Parte1</p></td>
+              <td style="border: 2px solid black; border-collapse: collapse">
+              <p>parte2</p></td>
+            </tr>
+          </table>
+    </div>
+    <!-- <P>Hola y adios</P> -->
+    
+</body>
+</html>
