@@ -26,6 +26,8 @@ $correo2 = $_POST["correo2"];
 
 }; */
 
+/* Los || no es "y" en este caso se pone && que en este caos es "si"*/
+
 if ($nombre2 == "") {
     $insertar = "insert into usuarios (nombre,dni,correo) VALUES ('$nombre','$apellidos','$correo')";
 }else if ($nombre == "" || $nombre2 == "$nombre2") {
