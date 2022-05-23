@@ -4,30 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Join Alumnos</title>
     <!-- Bootstrap CSS -->
-     
-     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
 </head>
-<style>
-
-#clavo{
-  background-color: #fafafa;
-  margin: 12rem;
-  padding: 2rem;
-  border: 2px solid #ccc;
-  /* IMPORTANTE */
-  text-align: center;
-}
-}
 
 
 
-</style>
+<script type="text/javascript"></script>
 <body>
-
-
 
 
 
@@ -77,7 +63,7 @@ viewBox="0 0 100 100"
 style=" fill:#000000;"><path d="M47.5,100c-3.245,0-6.015-2.426-6.443-5.643l-0.684-5.129c-2.237-0.696-4.401-1.592-6.476-2.683 l-4.112,3.145c-1.12,0.86-2.525,1.337-3.946,1.337c-1.736,0-3.368-0.675-4.596-1.903l-6.366-6.365 c-2.295-2.293-2.539-5.968-0.566-8.546l3.143-4.111c-1.091-2.075-1.987-4.238-2.683-6.476l-5.131-0.684 C6.426,62.515,4,59.745,4,56.5v-9c0-3.245,2.426-6.015,5.643-6.443l5.129-0.684c0.696-2.237,1.592-4.401,2.683-6.476l-3.145-4.112 c-1.972-2.577-1.728-6.251,0.569-8.546l6.362-6.362c1.226-1.227,2.859-1.904,4.596-1.904c1.419,0,2.821,0.475,3.948,1.336 l4.113,3.145c2.075-1.09,4.239-1.987,6.476-2.683l0.684-5.131C41.485,6.426,44.255,4,47.5,4h9c3.245,0,6.015,2.426,6.443,5.643 l0.684,5.129c2.237,0.696,4.401,1.592,6.476,2.683l4.112-3.145c1.13-0.863,2.531-1.336,3.948-1.336 c1.737,0,3.37,0.677,4.598,1.906l6.362,6.362c2.295,2.293,2.539,5.968,0.566,8.546l-3.143,4.111 c1.09,2.075,1.987,4.239,2.683,6.476l5.131,0.684C97.574,41.485,100,44.255,100,47.5v9c0,3.245-2.426,6.015-5.643,6.443 l-5.129,0.684c-0.696,2.237-1.592,4.4-2.683,6.476l3.145,4.112c1.972,2.577,1.728,6.251-0.569,8.546l-6.362,6.362 c-1.223,1.227-2.857,1.904-4.597,1.904c-1.42,0-2.824-0.476-3.953-1.341l-4.107-3.141c-2.075,1.09-4.239,1.987-6.476,2.683 l-0.684,5.131C62.515,97.574,59.745,100,56.5,100H47.5z" opacity=".35"></path><path fill="#f2f2f2" d="M45.5,98c-3.245,0-6.015-2.426-6.443-5.643l-0.684-5.129c-2.237-0.696-4.401-1.592-6.476-2.683 l-4.112,3.145c-1.12,0.86-2.525,1.337-3.946,1.337c-1.736,0-3.368-0.675-4.596-1.903l-6.366-6.365 c-2.295-2.293-2.539-5.968-0.566-8.546l3.143-4.111c-1.091-2.075-1.987-4.238-2.683-6.476l-5.131-0.684 C4.426,60.515,2,57.745,2,54.5v-9c0-3.245,2.426-6.015,5.643-6.443l5.129-0.684c0.696-2.237,1.592-4.401,2.683-6.476l-3.145-4.112 c-1.972-2.577-1.728-6.251,0.569-8.546l6.362-6.362c1.226-1.227,2.859-1.904,4.596-1.904c1.419,0,2.821,0.475,3.948,1.336 l4.113,3.145c2.075-1.09,4.239-1.987,6.476-2.683l0.684-5.131C39.485,4.426,42.255,2,45.5,2h9c3.245,0,6.015,2.426,6.443,5.643 l0.684,5.129c2.237,0.696,4.401,1.592,6.476,2.683l4.112-3.145c1.13-0.863,2.531-1.336,3.948-1.336 c1.737,0,3.37,0.677,4.598,1.906l6.362,6.362c2.295,2.293,2.539,5.968,0.566,8.546l-3.143,4.111 c1.09,2.075,1.987,4.239,2.683,6.476l5.131,0.684C95.574,39.485,98,42.255,98,45.5v9c0,3.245-2.426,6.015-5.643,6.443 l-5.129,0.684c-0.696,2.237-1.592,4.4-2.683,6.476l3.145,4.112c1.972,2.577,1.728,6.251-0.569,8.546l-6.362,6.362 c-1.223,1.227-2.857,1.904-4.597,1.904c-1.42,0-2.824-0.476-3.953-1.341l-4.107-3.141c-2.075,1.09-4.239,1.987-6.476,2.683 l-0.684,5.131C60.515,95.574,57.745,98,54.5,98H45.5z"></path><path fill="#9aa2e6" d="M81.979,55.769c-0.839,4.679-2.675,9.009-5.287,12.763l5.835,7.63l-6.364,6.364l-7.63-5.835 c-3.754,2.612-8.085,4.448-12.763,5.287L54.5,91.5h-9l-1.269-9.521c-4.679-0.839-9.009-2.675-12.763-5.287l-7.63,5.835 l-6.364-6.364l5.835-7.63c-2.612-3.754-4.448-8.085-5.287-12.763L8.5,54.5v-9l9.521-1.269c0.839-4.679,2.675-9.009,5.287-12.763 l-5.835-7.63l6.364-6.364l7.63,5.835c3.754-2.612,8.085-4.448,12.763-5.287L45.5,8.5h9l1.269,9.521 c4.679,0.839,9.009,2.675,12.763,5.287l7.63-5.835l6.364,6.364l-5.835,7.63c2.612,3.754,4.448,8.085,5.287,12.763L91.5,45.5v9 L81.979,55.769z M50,35.5c-8.008,0-14.5,6.492-14.5,14.5S41.992,64.5,50,64.5S64.5,58.008,64.5,50S58.008,35.5,50,35.5z"></path><path fill="none" stroke="#40396e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M81.979,55.769c-0.839,4.679-2.675,9.009-5.287,12.763l5.835,7.63l-6.364,6.364l-7.63-5.835c-3.754,2.612-8.085,4.448-12.763,5.287 L54.5,91.5h-9l-1.269-9.521c-4.679-0.839-9.009-2.675-12.763-5.287l-7.63,5.835l-6.364-6.364l5.835-7.63 c-2.612-3.754-4.448-8.085-5.287-12.763L8.5,54.5v-9l9.521-1.269c0.839-4.679,2.675-9.009,5.287-12.763l-5.835-7.63l6.364-6.364 l7.63,5.835c3.754-2.612,8.085-4.448,12.763-5.287L45.5,8.5h9l1.269,9.521c4.679,0.839,9.009,2.675,12.763,5.287l7.63-5.835 l6.364,6.364l-5.835,7.63c2.612,3.754,4.448,8.085,5.287,12.763L91.5,45.5v9L81.979,55.769z M81.979,55.769 c-0.839,4.679-2.675,9.009-5.287,12.763l5.835,7.63l-6.364,6.364l-7.63-5.835c-3.754,2.612-8.085,4.448-12.763,5.287L54.5,91.5h-9 l-1.269-9.521c-4.679-0.839-9.009-2.675-12.763-5.287l-7.63,5.835l-6.364-6.364l5.835-7.63c-2.612-3.754-4.448-8.085-5.287-12.763 L8.5,54.5v-9l9.521-1.269c0.839-4.679,2.675-9.009,5.287-12.763l-5.835-7.63l6.364-6.364l7.63,5.835 c3.754-2.612,8.085-4.448,12.763-5.287L45.5,8.5h9l1.269,9.521c4.679,0.839,9.009,2.675,12.763,5.287l7.63-5.835l6.364,6.364 l-5.835,7.63c2.612,3.754,4.448,8.085,5.287,12.763L91.5,45.5v9L81.979,55.769z M50,35.5c-8.008,0-14.5,6.492-14.5,14.5 S41.992,64.5,50,64.5S64.5,58.008,64.5,50S58.008,35.5,50,35.5z"></path><path fill="none" stroke="#40396e" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M50,35.5c-8.008,0-14.5,6.492-14.5,14.5S41.992,64.5,50,64.5S64.5,58.008,64.5,50S58.008,35.5,50,35.5z"></path><path fill="none" stroke="#40396e" stroke-miterlimit="10" d="M50,35.5c-8.008,0-14.5,6.492-14.5,14.5S41.992,64.5,50,64.5 S64.5,58.008,64.5,50S58.008,35.5,50,35.5z"></path></svg>
                     </a>
                     <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
-                        <li><a class="dropdown-item" href="http://192.168.13.88/PHP/proyecto-final/insertar.php">Actualizar</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/PHP/mysql/prueba.php">Actualizar</a></li>
 
                     </ul>
                 </div>
@@ -85,85 +71,56 @@ style=" fill:#000000;"><path d="M47.5,100c-3.245,0-6.015-2.426-6.443-5.643l-0.68
         </div>
         <div class="col-sm p-3 min-vh-100">
             <!-- content -->
-            <div id="clavo" >
-              <h1 style="text-align:center">Parte de usuarios</h1>
-              <br><br>
-                <form action="conexion.php" method="post" enctype="multipart/form-data">
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                    <input type="text" class="form-control"name="nombre" required>
-                    <div id="emailHelp" class="form-text">Introduce tu nombre.</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">DNI</label>
-                    <input type="text" class="form-control" name="dni" required>
-                    <div id="emailHelp" class="form-text">Introduzca su DNI.</div>
-                  </div>
+            <div class="container">
+        <?php
 
-                  <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Direccion de correo</label>
-                  <input type="email" name="correo" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">Indica tu correo.</div>
-                  </div>
+            $id = trim(htmlspecialchars($_REQUEST["id"], ENT_QUOTES, "UTF-8"));
+            
+            $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php") 
+                            or die("Problemas de Conexión");
+            
+            $sql = "SELECT * FROM coche WHERE id = $id";
 
+            $registro = mysqli_query($conexion, $sql) 
+                        or die("Problemas en el delete: ".mysqli_error($conexion));
 
-                  <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-                </div>
-
-
-
-
-
-
-
-                
-            <div id="clavo" >
-            <h1 style="text-align:center">Parte de coche</h1>
-            <br><br>
-                <form action="conexion.php" method="post" enctype="multipart/form-data">
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">DNI</label>
-                    <input type="text" class="form-control"name="nombre2" required>
-                    <div id="emailHelp" class="form-text">Introduce tu id.</div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Nombre del coche</label>
-                    <input type="text" class="form-control" name="apellidos2" required>
-                    <div id="emailHelp" class="form-text">Introduce el nombre del coche.</div>
-                  </div>
-
-
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Precio</label>
-                    <input type="number" class="form-control" name="correo2" require id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">Introduce tu precio.</div>
-                  </div>
-
-
-                  <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-                </div>
-
-
-
-               
-
-
-                </div>
+            if ($reg = mysqli_fetch_array($registro)) {
+            ?>
+                <form action="http://192.168.13.88/PHP/mysql/actualizar02.php" method="post">
+                    <input type="hidden" name="id" id="id"
+                        value="<?php echo $reg['id'] ?>">
                     
-                      
-                </div>
-            </div>
-      </div>
-</div>
+                    <div class="form-group">
+                        <label for="dni">DNI</label>
+                        <input type="text" class="form-control" name="dni" id="nombre" autofocus value="<?php echo $reg['dni '] ?>">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="nombrecoche">Nombre del coche</label>
+                        <input type="text" class="form-control" name="nombrecoche" id="email" value="<?php echo $reg['nombrecoche'] ?>">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="precio">Precio</label>
+                        <input type="number" class="form-control" name="precio" id="email" value="<?php echo $reg['precio'] ?>">
+                    </div>
+            
+                   
+
+                    
+            
+
+                    <input type="submit" value="Insertar" class="btn btn-primary btn-block">
+                </form>
+            <?php
+            }
+
+            
+            mysqli_close($conexion);            
+        ?>
+    </div>
+            
         
-   
-
-
-
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   
-</body>
-</html>
+        </div>
+    </div>
+</div>

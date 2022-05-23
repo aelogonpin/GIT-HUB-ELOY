@@ -21,7 +21,7 @@
     <div class="row">
         <div class="col-sm-auto bg-light sticky-top">
             <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
-                <a href="../proyecto-final/main.html" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+                <a href="http://192.168.13.88/PHP/proyecto-final/index.html" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="100" height="100"
 viewBox="0 0 100 100"
@@ -30,7 +30,7 @@ style=" fill:#000000;"><path d="M19.5,95c-3.584,0-6.5-2.916-6.5-6.5V50.822C12.50
 
                 <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
                     <li class="nav-item">
-                        <a href="../proyecto-final/insertar.php" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                        <a href="http://192.168.13.88/PHP/proyecto-final/insertar.php" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="100" height="100"
 viewBox="0 0 100 100"
@@ -38,7 +38,7 @@ style=" fill:#000000;"><circle cx="52" cy="52" r="44" opacity=".35"></circle><ci
                         </a>
                     </li>
                     <li>
-                        <a href="https://dev.to/codeply/#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                        <a href="http://192.168.13.88/PHP/mysql/prueba.php" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="100" height="100"
 viewBox="0 0 100 100"
@@ -46,7 +46,7 @@ style=" fill:#000000;"><path d="M82.047,94.126c-3.179-0.073-6.167-1.436-8.351-3.
                         </a>
                     </li>
                     <li>
-                        <a href="https://dev.to/codeply/#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
+                        <a href="http://192.168.13.88/PHP/mysql/join.php" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="100" height="100"
 viewBox="0 0 100 100"
@@ -56,7 +56,7 @@ style=" fill:#000000;"><path d="M23.5,93C14.248,93,7,83.556,7,71.5c0-3.584,2.916
                     <br><br><br>
                 </ul>
                 <div class="dropdown">
-                    <a href="https://dev.to/codeply/#" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href="" class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="100" height="100"
 viewBox="0 0 100 100"
@@ -74,7 +74,7 @@ style=" fill:#000000;"><path d="M47.5,100c-3.245,0-6.015-2.426-6.443-5.643l-0.68
             <div id="clavo" >
             <h1 style="text-align:center">Busqueda por condición</h1>
             <br><br>
-                <form action="conexion2.php" method="post" enctype="multipart/form-data">
+                <form action="buscajoin.php" method="post" enctype="multipart/form-data">
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Indicame al usuari@</label>
                     <input type="text" class="form-control"name="nombre" required>

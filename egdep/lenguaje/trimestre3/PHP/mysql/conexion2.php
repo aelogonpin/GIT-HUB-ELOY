@@ -10,8 +10,8 @@ echo $_POST["selector"];
 
 
 
- if ($comandotodo == "1") {
-    $todo = "insert into usuarios (nombre,dni,correo) VALUES ('$nombre')";
+ if ($comandotodo == "select * from usuarios left join coche on usuarios.dni = coche.dni where usuarios.nombre = '$nombre';") {
+    $todo = "select * from usuarios left join coche on usuarios.dni = coche.dni where usuarios.nombre = '$nombre';";
 
     
 }

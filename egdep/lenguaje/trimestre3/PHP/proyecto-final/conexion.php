@@ -46,7 +46,7 @@ if ($nombre2 == "") {
 $resultado = mysqli_query($conexion, $insertar);
 if ($resultado) {
     # code...
-    echo "<script>alert('Se ha enviado su informe'); window.location='main.html'</script>";
+    echo "<script>alert('Se ha enviado su informe'); window.location='http://192.168.13.88/PHP/proyecto-final/index.html'</script>";
 } else {
     printf("Errormenssage: %s\n", mysqli_error($conexion));
 }
