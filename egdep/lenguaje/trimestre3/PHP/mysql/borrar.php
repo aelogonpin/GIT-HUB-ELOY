@@ -22,7 +22,7 @@
             mysqli_query($conexion, $sql) 
                         or die("Problemas en el delete: ".mysqli_error($conexion));
 
-            header("Location: prueba.php");
+            header("Location: http://192.168.13.88/PHP/mysql/prueba.php");
 
             mysqli_close($conexion);            
         ?>

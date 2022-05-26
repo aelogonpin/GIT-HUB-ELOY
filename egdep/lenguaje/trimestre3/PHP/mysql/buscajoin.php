@@ -89,6 +89,7 @@ $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php")
 
             $registros = mysqli_query($conexion, $sql) 
                             or die("Problema en la consulta: " . mysqli_error($conexion));
+                            
             
             echo "<table class='table table-striped'>";
             echo "<thead><th>Nombre</th><th>DNI</th><th>Correo</th><th>Nombre del coche</th><th>Precio</th></thead>";                        
@@ -99,8 +100,9 @@ $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php")
                 echo "<td>" . $reg['dni'] . "</td>";
                 echo "<td>" . $reg['correo'] . "</td>";
                 echo "<td>" . $reg['nombrecoche'] . "</td>";
-                echo "<td>" . $reg['precio'] . "</td>";
+                echo "<td>" . $reg['precio'] ."€" . "</td>";
 
+                
                 
                 echo "</tr>";
             }
@@ -108,6 +110,7 @@ $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php")
             echo "</table>";
 
             mysqli_close($conexion);
+
 
 
 
@@ -124,7 +127,7 @@ $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php")
                             or die("Problema en la consulta: " . mysqli_error($conexion));
             
             echo "<table class='table table-striped'>";
-            echo "<thead><th>Nombre</th><th>DNI</th><th>Correo</th><th>Nombre del coche</th><th>Precio</th></thead>";                        
+            echo "<thead><th>Nombre</th><th>DNI</th><th>Correo</th></thead>";                        
             while ($reg=mysqli_fetch_array($registros)) {
                 echo "<tr>";
                 
@@ -154,15 +157,13 @@ $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php")
                             or die("Problema en la consulta: " . mysqli_error($conexion));
             
             echo "<table class='table table-striped'>";
-            echo "<thead><th>Nombre</th><th>DNI</th><th>Correo</th><th>Nombre del coche</th><th>Precio</th></thead>";                        
+            echo "<thead><th>DNI</th><th>Nombre del coche</th><th>Precio</th></thead>";                        
             while ($reg=mysqli_fetch_array($registros)) {
                 echo "<tr>";
                 
-                echo "<td>" . $reg['nombre'] . "</td>";
                 echo "<td>" . $reg['dni'] . "</td>";
-                echo "<td>" . $reg['correo'] . "</td>";
-                echo "<td>" . $reg['nombrecoche'] . "</td>";
-                echo "<td>" . $reg['precio'] . "</td>";
+                echo "<td>" . $reg['nombrecoche']   . "</td>";
+                echo "<td>" . $reg['precio'] ."€" . "</td>";
 
                 
                 echo "</tr>";

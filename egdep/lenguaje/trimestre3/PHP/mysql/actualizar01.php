@@ -16,6 +16,8 @@
             $nombre = trim(htmlspecialchars($_REQUEST["nombre"], ENT_QUOTES, "UTF-8"));
             $dni = trim(htmlspecialchars($_REQUEST["dni"], ENT_QUOTES, "UTF-8"));
             $correo = trim(htmlspecialchars($_REQUEST["correo"], ENT_QUOTES, "UTF-8"));
+            $nombrecoche = trim(htmlspecialchars($_REQUEST["nombrecoche"], ENT_QUOTES, "UTF-8"));
+            $precio = trim(htmlspecialchars($_REQUEST["precio"], ENT_QUOTES, "UTF-8"));
             
             $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php") 
                             or die("Problemas de Conexión");

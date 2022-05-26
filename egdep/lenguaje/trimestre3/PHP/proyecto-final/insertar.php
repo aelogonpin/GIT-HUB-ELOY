@@ -125,7 +125,7 @@ style=" fill:#000000;"><path d="M47.5,100c-3.245,0-6.015-2.426-6.443-5.643l-0.68
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">DNI</label>
                     <input type="text" class="form-control"name="nombre2" required>
-                    <div id="emailHelp" class="form-text">Introduce tu id.</div>
+                    <div id="emailHelp" class="form-text">Introduce tu DNI.</div>
                   </div>
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nombre del coche</label>

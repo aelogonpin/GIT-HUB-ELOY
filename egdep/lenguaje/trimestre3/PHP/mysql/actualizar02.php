@@ -12,7 +12,7 @@
     <div class="container">
         <?php
 
-            $id = trim(htmlspecialchars($_REQUEST["id"], ENT_QUOTES, "UTF-8"));
+            $idusu = trim(htmlspecialchars($_REQUEST["idusu"], ENT_QUOTES, "UTF-8"));
             $dni = trim(htmlspecialchars($_REQUEST["dni"], ENT_QUOTES, "UTF-8"));
             $nombrecoche = trim(htmlspecialchars($_REQUEST["nombrecoche"], ENT_QUOTES, "UTF-8"));
             $precio = trim(htmlspecialchars($_REQUEST["precio"], ENT_QUOTES, "UTF-8"));
@@ -20,7 +20,7 @@
             $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php") 
                             or die("Problemas de Conexión");
             
-            $sql = "UPDATE coche SET dni='$dni', nombrecoche='$nombrecoche', precio='$precio' WHERE id = $id";
+            $sql = "UPDATE coche SET dni='$dni', nombrecoche='$nombrecoche', precio='$precio' WHERE idusu = $idusu";
 
             mysqli_query($conexion, $sql) 
                         or die("Problemas en el delete: ".mysqli_error($conexion));

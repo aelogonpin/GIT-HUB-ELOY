@@ -129,11 +129,10 @@ style=" fill:#000000;"><path d="M47.5,100c-3.245,0-6.015-2.426-6.443-5.643l-0.68
                             or die("Problema en la consulta: " . mysqli_error($conexion));
             
             echo "<table class='table table-striped'>";
-            echo "<thead><th>ID</th><th>Nombre</th><th>DNI</th><th>Correo</th></thead>";                        
+            echo "<thead><th>Nombre</th><th>DNI</th><th>Correo</th></thead>";                        
             while ($reg=mysqli_fetch_array($registros)) {
                 echo "<tr>";
 
-                echo "<td>" . $reg['id'] . "</td>";
                 echo "<td>" . $reg['nombre'] . "</td>";
                 echo "<td>" . $reg['dni'] . "</td>";
                 echo "<td>" . $reg['correo'] . "</td>";
@@ -158,24 +157,24 @@ style=" fill:#000000;"><path d="M47.5,100c-3.245,0-6.015-2.426-6.443-5.643l-0.68
             $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php") 
                             or die("Problemas de conexión");
             
-            $sql = "SELECT b.id,b.dni,b.nombrecoche, b.precio
+            $sql = "SELECT b.idusu,b.dni,b.nombrecoche, b.precio
              FROM coche b";
 
             $registros = mysqli_query($conexion, $sql) 
                             or die("Problema en la consulta: " . mysqli_error($conexion));
             
             echo "<table class='table table-striped'>";
-            echo "<thead><th>ID</th><th>DNI</th><th>Modelo</th><th>Precio del vehiculo personal</th></thead>";                        
+            echo "<thead><th>DNI</th><th>Modelo</th><th>Precio del vehiculo personal</th></thead>";                        
             while ($reg=mysqli_fetch_array($registros)) {
                 echo "<tr>";
 
-                echo "<td>" . $reg['id'] . "</td>";
+
                 echo "<td>" . $reg['dni'] . "</td>";
                 echo "<td>" . $reg['nombrecoche'] . "</td>";
-                echo "<td>" . $reg['precio'] . "</td>";
+                echo "<td>" . $reg['precio'] ."€" . "</td>";
              
-                echo "<td>" . "<a href='actualizar2.php?id=$reg[id]' class='btn btn-primary btn-sm'>Actualizar</a>
-                               <a href='borrar2.php?id=$reg[id]' class='btn btn-danger btn-sm'>Borrar</a>" . "</td>";
+                echo "<td>" . "<a href='actualizar2.php?idusu=$reg[idusu]' class='btn btn-primary btn-sm'>Actualizar</a>
+                               <a href='borrar2.php?idusu=$reg[idusu]' class='btn btn-danger btn-sm'>Borrar</a>" . "</td>";
 
 
                 
@@ -186,6 +185,57 @@ style=" fill:#000000;"><path d="M47.5,100c-3.245,0-6.015-2.426-6.443-5.643l-0.68
 
             mysqli_close($conexion);
         ?>
+
+
+
+<h2>CONSULTA 3</h2>
+        <?php
+            $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php") 
+                            or die("Problemas de conexión");
+            
+            $sql = "SELECT usuarios.*, coche.nombrecoche, 
+            coche.precio FROM coche
+            RIGHT JOIN usuarios 
+            ON usuarios.dni=coche.dni;";
+
+            $registros = mysqli_query($conexion, $sql) 
+                            or die("Problema en la consulta: " . mysqli_error($conexion));
+            
+            echo "<table class='table table-striped'>";
+            echo "<thead><th>Nombre</th><th>DNI</th><th>Correo</th><th>Vehiculo personal</th><th>Precio</th></thead>";                        
+            while ($reg=mysqli_fetch_array($registros)) {
+                echo "<tr>";
+
+                echo "<td>" . $reg['nombre'] . "</td>";
+                echo "<td>" . $reg['dni'] . "</td>";
+                echo "<td>" . $reg['correo'] . "</td>";
+                echo "<td>" . $reg['nombrecoche'] . "</td>";
+                echo "<td>" . $reg['precio'] ."€" . "</td>";
+             
+                
+
+
+                
+                echo "</tr>";
+            }
+
+            echo "</table>";
+
+            mysqli_close($conexion);
+        ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

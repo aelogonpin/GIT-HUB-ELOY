@@ -12,17 +12,17 @@
     <div class="container">
         <?php
 
-            $id = trim(htmlspecialchars($_REQUEST["id"], ENT_QUOTES, "UTF-8"));
+            $idusu = trim(htmlspecialchars($_REQUEST["idusu"], ENT_QUOTES, "UTF-8"));
             
             $conexion = mysqli_connect("localhost", "root", "Eloyto11", "bd_php") 
                             or die("Problemas de Conexión");
             
-            $sql = "DELETE FROM coche WHERE id = $id";
+            $sql = "DELETE FROM coche WHERE idusu = $idusu";
 
             mysqli_query($conexion, $sql) 
                         or die("Problemas en el delete: ".mysqli_error($conexion));
 
-            header("Location: prueba.php");
+            header("Location: http://192.168.13.88/PHP/mysql/prueba.php");
 
             mysqli_close($conexion);            
         ?>

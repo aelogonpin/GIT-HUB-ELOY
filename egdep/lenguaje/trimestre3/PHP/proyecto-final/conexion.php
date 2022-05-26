@@ -33,9 +33,9 @@ if ($nombre2 == "") {
 }else if ($nombre == "" || $nombre2 == "$nombre2") {
     $insertar = "insert into coche (dni,nombrecoche,precio) VALUES ('$nombre2','$apellidos2','$correo2')";
 
-}else if ($nombre == "$nombre" || $nombre2 == "$nombre2") {
-    $insertar = "insert into usuarios (nonmbre,apellidos,correo) VALUES ('$nombre','$apellidos','$correo') and
-    insert into coche (idusu,nombrecoche,precio) VALUES ('$nombre2','$apellidos2','$correo2');";
+}else if ($nombre == "$nombre" && $nombre2 == "$nombre2") {
+    $insertar = "insert into usuarios (nonmbre,apellidos,correo) VALUES ('$nombre','$apellidos','$correo');";
+    $insertar2 ="insert into coche (dni,nombrecoche,precio) VALUES ('$nombre2','$apellidos2','$correo2');";
 }
 
 
@@ -45,7 +45,7 @@ if ($nombre2 == "") {
 
 
 
-$resultado = mysqli_query($conexion, $insertar);
+$resultado = mysqli_query($conexion, $insertar, $insertar2);
 if ($resultado) {
     # code...
     echo "<script>alert('Se ha enviado su informe'); window.location='http://192.168.13.88/PHP/proyecto-final/index.html'</script>";
