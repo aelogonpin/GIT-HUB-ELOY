@@ -1,0 +1,12 @@
+Log created: 2022-07-25T17:44:02.697063000Z
+Process ID:  20531 (0x5033)
+Parent PID:  1 (0x1)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: SlWp_default_1658770541041_22259
+Arg[3]: --startvm
+Arg[4]: eee76879-9196-479e-898d-5d11195ab94e
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2

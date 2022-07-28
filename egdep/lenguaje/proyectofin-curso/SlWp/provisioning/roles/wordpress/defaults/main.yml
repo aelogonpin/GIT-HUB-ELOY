@@ -1,0 +1,6 @@
+
+---
+# defaults file for mysql
+wp_mysql_db: prueba
+wp_mysql_user: vagrant
+wp_mysql_password: vagrant
